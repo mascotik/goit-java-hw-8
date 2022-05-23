@@ -8,8 +8,8 @@ public class RhombusShape extends Shape {
 
     public RhombusShape(int sideSize, int heightSize) {
         super("Rhombus");
-        this.sideSize = sideSize;
-        this.heightSize = heightSize;
+        setSideSize(sideSize);
+        setHeightSize(heightSize);
     }
 
     public int getSideSize() {
